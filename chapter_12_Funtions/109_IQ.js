@@ -31,4 +31,4 @@ greet("Alice"); // function is unassigned hence no value will be printed
 
 // const sayHi = function (name) {
 //     return `Hi, ${name}!`;
-// };
+// }; // reference error as function-call is in the TDZ
