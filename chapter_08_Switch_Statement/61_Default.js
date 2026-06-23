@@ -1,6 +1,6 @@
 // Switch
 // 0 - Sunday, 1 - Monday, 2 - Tue.....
-let day = 10;
+let day = 1;
 switch (day) {
     case 0:
         console.log("Sunday — Rest Day");

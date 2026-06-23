@@ -4,7 +4,8 @@ test("Verify that the title will be TTA Cart", async ({ page}) => {
     // await page.pause(); 
     await page.goto("https://app.thetestingacademy.com/playwright/ttacart/")
     // await page.waitForTimeout(3000);
-    await expect(page.locator('[data-test="primary-header"] span')).toContainText('TTACart');
+    await expect(page).toHaveTitle("TTACart - Login");
+    await page.waitForTimeout(3000);
 });
 
 // $env:PWDEBUG=0

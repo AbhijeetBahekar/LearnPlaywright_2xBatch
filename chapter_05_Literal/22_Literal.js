@@ -11,3 +11,4 @@ console.log(typeof pi);
 console.log(typeof isStudent);
 console.log(typeof nullValue);
 console.log(typeof undefinedValue);
+console.log(typeof NaN);
