@@ -1,6 +1,8 @@
 class Person {
 
     static nationality = "India";
+
+
     constructor(name) {
         this.name = name;
     }
@@ -12,3 +14,4 @@ class Person {
 let j = new Person("Bhartiya");
 
 console.log(j.name);
+console.log(Person.nationality);
