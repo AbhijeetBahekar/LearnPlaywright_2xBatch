@@ -1,6 +1,6 @@
 // Grand Father -> Father -> Son
 // BasePage -> AuthPape -> AdminPage
-class BasePage {
+class BasePage {  // Grand Father
     constructor(name) {
         this.name = name;
     }
@@ -8,12 +8,12 @@ class BasePage {
         console.log("[OPEN] " + this.name);
     }
 }
-class AuthPage extends BasePage {
+class AuthPage extends BasePage { // Father
     login(user) {
         console.log("[Login] " + user);
     }
 }
-class AdminPage extends AuthPage {
+class AdminPage extends AuthPage { // Son
     constructor() {
         super("Admin Panel")
     }
