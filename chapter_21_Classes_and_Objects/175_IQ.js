@@ -16,8 +16,9 @@ let chrome = new Browser("Chrome"); // constructor will be called with name
 let Firfox = new Browser("FireFox"); // constructor will be called with name
 
 console.log(chrome.isOpen); // line 4 will be printed
-let d = new Browser.startBrowser;
-console.log(d);
+// let d = new Browser();
+// console.log(d);
+chrome.startBrowser();
 
 // answer 
 // Chrome launched
