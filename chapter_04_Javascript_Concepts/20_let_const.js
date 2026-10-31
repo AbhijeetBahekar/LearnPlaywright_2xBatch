@@ -14,4 +14,6 @@
 // }
 
 sayHi()
- const sayHi = function() { console.log("Hi"); }; 
+
+const sayHi = function() { console.log("Hi"); }; // you assigned the function to const sayHi
+// hence you calling the const above the declaration hence ReferenceError

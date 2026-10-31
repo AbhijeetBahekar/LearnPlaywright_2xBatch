@@ -9,8 +9,8 @@ var ab123 = 34;
 var Name = "pramod";
 var name = "Amit";
 //var pramod dutta = "hello";
-var pramod_dutta = "hello";
-var pramod$dutta = "hello11";
+var Bond_James = "hello";
+var Bond$James = "hello11";
 var pramodu1232 = "hello";
 
-console.log(pramod$dutta);
+console.log(Bond$James);

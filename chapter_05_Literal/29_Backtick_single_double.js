@@ -35,11 +35,11 @@ console.log("Double Quote:", double);
 // --------------------------------------------------------
 // 3. Backticks (Template Literals)
 // --------------------------------------------------------
-let name = "Harish";
+let name1 = 'Harish';
 let age = 25;
 
 // Variable interpolation
-let greeting = `Hello, my name is ${name} and I am ${age} years old.`;
+let greeting = `Hello, my name is ${name1} and I am ${age} years old.`;
 console.log("Backtick with variable:", greeting);
 
 // Multi-line string

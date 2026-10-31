@@ -2,9 +2,9 @@
 // or divisible by 400 is also a -- leap year
 // else not a leap year
 
-let year = 2025;
+let year = 2028;
 if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
-    console.log(`This is leap year - ${year}`);
+    console.log(`This is a leap year - ${year}`);
 } else {
     console.log(`This is Not a leap year, Sorry! - ${year}`);
 }

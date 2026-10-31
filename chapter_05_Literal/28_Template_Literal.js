@@ -1,4 +1,4 @@
-// Template literally. 
+// Template literally. ` ` symbol is called a backtick
 
 let firstname = "Prrammod";
 let fullname = `Hi ${firstname} Dutta`;

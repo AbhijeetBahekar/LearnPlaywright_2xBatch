@@ -1,9 +1,9 @@
 
-getUserStatus(); //this line also works, its funny language
+getUserStatus(); //this line also works, its funny language 
 
 function getUserStatus() { // JS Engine
     //var status_code; JS Engine (optimized the code)
-    console.log(status_code);
+    console.log("see what it shown ",status_code); // undefined
     var status_code = "Active";
     console.log(status_code);
 }

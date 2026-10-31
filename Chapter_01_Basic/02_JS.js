@@ -1,2 +1,2 @@
 let x = 10;
-console.log(`this is stored in x = ${x}`);
+console.log(`this is stored in x = ${x}`); // "Template Literal"

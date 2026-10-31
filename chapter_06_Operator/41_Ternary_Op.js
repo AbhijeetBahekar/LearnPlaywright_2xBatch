@@ -25,13 +25,13 @@ let result = x > y ? "x is the highest" : "y is the highest number"
 console.log(result)
 
 let a = 10;
-let b = 13;
-let c = 12;
+let b = 10;
+let c = 10;
 let gtr_num = 
-    a > b && a > c ? "a is highest number":
-        b > c && b > a ? "b is highest number":
-            c > a && c > b ? "c is highest number" : "all are equal";
-console.log(`Number is ${gtr_num}`);
+    a > b && a > c ? `${a} variable a is highest number`:
+        b > c && b > a ? `${b} variable b is highest number`:
+            c > a && c > b ? `${c} variable c is highest number` : `all variables are equal`;
+console.log(`Number is good to have is - ${gtr_num}`);
 
 
 let temp = 35;

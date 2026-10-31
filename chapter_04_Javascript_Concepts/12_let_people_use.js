@@ -1,16 +1,18 @@
 // let - Block Scoped
-let a = 10;
+// let a = 10;
 
-let retryCount = 0;
-retryCount = retryCount + 1;
-retryCount = retryCount + 1;
-console.log("Retry attempt:", retryCount);
+// let retryCount = 0;
+// retryCount = retryCount + 1;
+// retryCount = retryCount + 1;
+// console.log("Retry attempt:", retryCount); 
+
+// ❌ SyntaxError: redeclaration not allowed
 
 //let retryCount = 5;
 
 //let retryCount = 5; SyntaxError: Identifier 'retryCount' has already been declared
 
-// ❌ SyntaxError: redeclaration not allowed
+
 
 let testStatus = "pending";
 
@@ -29,5 +31,5 @@ console.log(executionTime); // ReferenceError: executionTime is not defined
 // let = loyal
 // var = varirable / triator
 
-let name = "pending";
-name = "done";
+// let name = "pending";
+// name = "done";

@@ -1,5 +1,11 @@
 console.log("Hello JavaScript 06 May 2026 Batch");
 
+/*
+console.log("Hello Poonam");
+console.log("Hello Poonam");
+console.log("Hello Poonam");
+*/
+
 // lexical analysis - Tokenizing
 // cut in small parts
 // Parsing
